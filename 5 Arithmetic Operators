@@ -1,0 +1,20 @@
+num1 = 30
+num2 = 20
+
+print(num1 + num2) #50
+
+print(num1 - num2) #10
+
+print(num1 * num2) #600
+
+print(num1 / num2) #1.5
+
+print(10/3) #3.3333333333333335
+
+print(num1//num2). #1 (// means floor division - point ke bad ke numbers nahi dikhte)
+
+print(10**3) #1000 #exponentiation operator - 10^3
+
+print(10%3) #1
+
+
