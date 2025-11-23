@@ -1,0 +1,29 @@
+# variable is container to store data 
+
+a=94
+print(a) #94
+
+b=55
+print(b) #55
+
+#float variables 
+a=6.2
+print(a) #6.2
+
+#boolean variables 
+c= True
+print(c) #True
+
+#String - a sequence of characters 
+d="Prajakta"
+print(d) #Prajakta
+
+
+e=none
+print(e) #None
+
+'''
+In python everything is object.
+
+we have bytes,sets, dictionary,tupples,int,float,complex etc.
+'''
