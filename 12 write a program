@@ -1,0 +1,8 @@
+n=input("enter a number") #let say I entered 10
+print(n+5) #gives error bcos  the type of input function is string
+
+print(type(n)) #string
+
+hence we do like
+print((int)n+5)) #15
+
