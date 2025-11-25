@@ -8,3 +8,13 @@ print(name.isalnum()) #True (alphanumeric - made up of alphabet+ numbers)
 n=5
 print(n.isnumeric()) #True
 print(name.isnumeric()) #False
+
+'''
+string is immutable in python 
+
+for example,
+if we do slicing, the new string is get created.
+
+fname='prajakta'
+print(fname[:4]) #praj
+'''
