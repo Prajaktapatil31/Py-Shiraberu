@@ -1,0 +1,55 @@
+#Empty Dictionary 
+a = {}
+print(a, type(dict1))      # {}  <class 'dict'>
+
+
+#Empty Set
+b = set()
+print(b, type(b))           # set()  <class 'set'>
+
+
+
+
+'''
+Dictionary is Mutable🟢
+Dictionary is used to store key-value pairs in python.
+for eg, to store students marks we can use it.
+
+'''
+
+
+
+
+dict1 = {"good" : "something pleasant",
+         "hello": "friends",
+         "1"    : "school",
+         "apple": "is a fruit"
+         }
+
+print(dict1["good"])        #something pleasant 
+
+
+
+
+
+marks = {
+         "prajakta" : 94,
+         "dhiraj " : 92,
+         "sai" : 88,
+         "sita" : 56,
+         "krishna" : 67
+         }
+
+print(marks["prajakta"])         # 94
+
+marks["jethalal"]=34
+print(marks["jethalal"])         #34
+
+
+# .get method error nahi deta agr vo key present nahi huyi dictionary mein tobhi
+print(marks.get("priyanka chopra"))       #None
+print(marks.get("jethalal"))             #34
+
+
+
+
