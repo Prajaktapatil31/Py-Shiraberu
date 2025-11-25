@@ -1,0 +1,14 @@
+'''
+Tuple is Immutable🔴 --> we can't change the tuple.
+
+
+'''
+
+
+t = (1,2,3,4,5)
+print(t)      #(1,4,6,8,2,3,2)
+
+print(t.count(4))  #1
+pritn(t.index(2))  #4   -->first index of element
+
+t[0] = 10 #this will give error bcos we cant cahnge tuple 
